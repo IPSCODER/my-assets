@@ -9,7 +9,7 @@ const Layout = () => {
     <>
     <Header/>
     <Sidebar/>
-    <section className='w-[90%] top-[50px]'><Outlet/></section>
+    <section className='w-[90%] top-[60px]'><Outlet/></section>
     <Footer/>
     </>
   )

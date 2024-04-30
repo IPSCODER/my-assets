@@ -1,12 +1,10 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from '../../components/header/Header'
 
 const FAssets = () => {
   return (
-    <div>
-      <Outlet/>
-    </div>
+    <section className='w-full pt-[50px] px-3'>
+     <h1 className='font-bold text-xl' >Assets</h1>
+    </section>
   )
 }
 

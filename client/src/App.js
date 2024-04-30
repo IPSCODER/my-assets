@@ -18,13 +18,8 @@ function App() {
     <Route path='/' element={<Suspense fallback={<h1>Loading...</h1>} >
       <Home/>
     </Suspense>} />
-    <Route path='/assets' element={<Suspense fallback={<h1>Loading...</h1>} >
-      <Layout/>
-    </Suspense>} >
-    <Route path='/assets' element={<Suspense fallback={<h1>Loading...</h1>} >
-      <FAssets/>
-    </Suspense>} >
-    </Route>
+    <Route path='/assets' element={<Suspense fallback={<h1>Loading...</h1>} ><Layout/></Suspense>} >
+    <Route path='/assets' element={<Suspense fallback={<h1>Loading...</h1>} ><FAssets/></Suspense>} />
     </Route>
    </Routes>
     <ScrollTp/>

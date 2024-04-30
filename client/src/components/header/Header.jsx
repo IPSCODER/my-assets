@@ -10,7 +10,6 @@ const Header = () => {
         const currentScrollPos = window.pageYOffset;
         setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
         setPrevScrollPos(currentScrollPos);
-        console.log(visible);
       };
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
